@@ -1,6 +1,6 @@
 <?php
 
-namespace Ripa\ZeptoMailApiDriver;
+namespace ripaym1970\ZeptoMailApiDriver;
 
 use Symfony\Component\Mailer\SentMessage;
 use Symfony\Component\Mailer\Transport\AbstractTransport;

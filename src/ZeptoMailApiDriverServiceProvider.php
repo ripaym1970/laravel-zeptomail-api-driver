@@ -1,6 +1,6 @@
 <?php
 
-namespace Ripa\ZeptoMailApiDriver;
+namespace ripaym1970\ZeptoMailApiDriver;
 
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\ServiceProvider;
