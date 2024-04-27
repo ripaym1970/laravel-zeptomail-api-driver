@@ -1,0 +1,43 @@
+{
+    "name": "ripaym1970/laravel-zeptomail-api-driver",
+    "description": "Zeptomail api mail driver for Laravel",
+    "keywords": [
+        "ripaym1970"
+    ],
+    "homepage": "https://github.com/ripaym1970/laravel-zeptomail-api-driver",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yurii Ripa",
+            "email": "ripaym1970@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/contracts": "^10.0||^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ripaym1970\\ZeptoMailApiDriver\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ripaym1970\\ZeptoMailApiDriver\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ripaym1970\\ZeptoMailApiDriver\\ZeptoMailApiDriverServiceProvider"
+            ]
+        }
+    }
+}
